@@ -1,0 +1,178 @@
+html{
+    font-family: "Inconsolata", monospace;
+}
+body{
+    background: radial-gradient(circle at top, #0a0f18, #000);
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+h1, h2 {
+    justify-content: center;
+    color: #9db0b6;
+}
+
+a {
+    color: #9db0b6;
+}
+
+a:hover {
+    color: #9db0b6;
+}
+
+.header_principal {
+    background-color: black;
+    color: aliceblue;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 10px 20px 50px #73cfff;
+}
+
+.foto{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #73cfff;   /*Añade un borde sólido, Ese borde es la base del- “marco” luminoso. */
+    box-shadow: 0 0 15px #73cfff; /*Crea una sombra externa difusa que parece un resplandor.*/
+    animation: glow 2s infinite alternate; /*Aplica una animación llamada glow*/
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 0px #73cfff; /* aca es el punto inicial de la animación*/
+    }
+    to {
+        box-shadow: 0 0 5px #73cfff, 0 0 15px #73cfff; /* aca es el max donde llegara la animación*/
+    }
+}
+
+.header_text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -10px;
+    justify-content: center;
+}
+
+
+
+
+
+
+.Seccion_1{
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    margin-left: 15rem;
+    font-size: 2rem;
+    list-style: none;
+    gap: 10rem;
+}
+
+
+
+
+fieldset {
+    font-size: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    align-items: center;
+    margin-left: 45rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
+    
+}
+
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #111;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    background-color: #4cc9f0;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #72d7ff;
+}
+
+.header_proyectos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-image: url("Sin\ título.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000815; /* El color que ya usas */
+    background-blend-mode: multiply; /* Mezcla la imagen con el color */
+}
+
+.nav_proyectos a{
+    
+    text-decoration: none !important;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+}
+
+
+.header_text_mascotas{
+    background-color: black;
+    color: aliceblue;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 10px 20px 50px #73cfff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.portafolio{
+    text-align: right;
+    margin-top: -6rem;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+}
+
+.galeria{
+    margin-top: 8rem;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 5px #ececec;
+}
+
+img{
+    width: 300px;
+    height: 180px;
+}
+
+footer{
+    justify-content: center;
+    margin-top: 10rem;
+}
