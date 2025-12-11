@@ -194,8 +194,8 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-columns: repeat(3,  1fr);
   gap: 3rem;
-  padding: 2rem;
-  max-width: 1200px;
+  padding: 1rem;
+  max-width: 800px;
   margin: auto;
 }
 .galeria article {
