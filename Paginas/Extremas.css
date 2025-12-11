@@ -114,3 +114,10 @@ section img{
     transform: translate(0%, 1100%);
     color: aliceblue;
 }
+
+article{
+    border-radius: 5%;
+    margin-left: 50px;
+    margin-right: 200px;
+    
+}
