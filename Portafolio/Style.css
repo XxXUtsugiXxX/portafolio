@@ -15,11 +15,6 @@
   border-radius: 8px;
 }
 
-.sobre-mi,
-#contacto,
-.galeria article {
-  composes: card;
-}
 
 html {
   font-family: "Inconsolata", monospace;
