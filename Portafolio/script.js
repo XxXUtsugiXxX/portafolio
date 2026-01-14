@@ -74,3 +74,13 @@ if (form) {
     form.reset();
   });
 }
+
+// Resaltar proyecto tocado (tablet / móvil)
+document.querySelectorAll(".nav_proyectos li a").forEach(link => {
+  link.addEventListener("click", () => {
+    link.classList.add("activo");
+    setTimeout(() => {
+      link.classList.remove("activo");
+    }, 300);
+  });
+});
